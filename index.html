@@ -22,13 +22,46 @@
             <div class="form">
                 <form action="POST">
                     <fieldset>
-                    <input placeholder="First name" id="mc" type="text">
-                    <input placeholder='Last name' id="ma" type="text">
+                    <input 
+                    placeholder="First name" id="mc" type="text"
+                        type="text"
+                        name="first name"
+                        id="mc"
+                        required 
+                        minlength="1"
+                        maxlength="30"
+                        />
+                    <input 
+                     placeholder='Last name' id="ma" type="text"
+                        type="text"
+                        name="last name"
+                        id="ma"
+                        required 
+                        minlength="1"
+                        maxlength="30"
+                        />
                     <br></br>
-                    <input type="text" name='phone' id="phone" placeholder='Mobile number or email' type='text'>
-          <br></br> 
-                    <input placeholder='New password' id='pass' type="text">
+                    
+                    <input type="text" name='phone' id="phone" placeholder='Mobile number or email' type='text'
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    required 
+                    minlength="1"
+                    maxlength="30"
+                    /> 
+                    <br></br> 
+                   
+                    <input placeholder='New password' id='pass' type="text"
+                    type="text"
+                    name=""
+                    id="pass"
+                    required 
+                    minlength="1"
+                    maxlength="30"
+                    />
                     <br><br>
+                    
                     <h5>Birthday <i class="fa-solid fa-circle-question"></i></h5>
                     <select type='select'>
                         <option value="aug">Aug</option>
